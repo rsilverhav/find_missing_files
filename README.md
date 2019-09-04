@@ -35,5 +35,5 @@ test/dir1/wallpaper3.jpg
 == SIZE DIFF FILES ==
 test/dir1/same_name_different_content.jpg
 ```
-The output shows that wallpaper3.jpg exists in `test/dir1` but not in `test/dir2`.
+The output shows that `wallpaper3.jpg` exists in `test/dir1` but not in `test/dir2`.
 We can also see that `same_name_different_content.jpg` exists in both dirs but has different size.
