@@ -1,12 +1,12 @@
 This script takes two arguments: a dir to crawl and a dir to compare to. It will find the files that exist in the first dir that are missing from the second.
 It also find files that exists in both dirs and has different sizes.
 
-##How to use the script
+## How to use the script
 ```
 python3 missing_file_finder.py <dir> <dir to compare with>
 ```
 
-##Example output
+## Example output
 In this example, two directories with the following structure are used as input to the script:
 ```
 test
