@@ -11,19 +11,18 @@ In this example, two directories with the following structure are used as input 
 ```
 test
   ├── dir1
-  │   ├── hej.txt
   │   ├── heter_nat
   │   │   └── hej.txt
   │   ├── same_name_different_content.jpg
   │   └── wallpaper3.jpg
   └── dir2
-      ├── hej.txt
       ├── heter_nat_annat
+      │   └── hej.txt
       └── same_name_different_content.jpg
 ```
 This is the output of the script:
 ```
-▶ python3 missing_file_finder.py test/dir1 test/dir2
+▶ cat output.txt 
 = SUMMARY =
  total size:               729508
  total size backup:        134267
